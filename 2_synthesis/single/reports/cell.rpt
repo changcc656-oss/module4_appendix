@@ -1,0 +1,311 @@
+ 
+****************************************
+Report : cell
+Design : multiplier_32
+Version: S-2021.06-SP2
+Date   : Sat Jul 11 16:46:27 2026
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U4                        INVX8_RVT       saed32rvt_tt1p05v25c
+                                                          3.049728  
+U5                        NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U6                        NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U7                        NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U8                        NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U9                        NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U10                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U11                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U12                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U13                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U14                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U15                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U16                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+U17                       NBUFFX2_RVT     saed32rvt_tt1p05v25c
+                                                          2.033152  
+a_reg_reg[0]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[1]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[2]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[3]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[4]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[5]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[6]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[7]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[8]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[9]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[10]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[11]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[12]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[13]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[14]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[15]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[16]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[17]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[18]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[19]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[20]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[21]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[22]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[23]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[24]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[25]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[26]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[27]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[28]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[29]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[30]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+a_reg_reg[31]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[0]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[1]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[2]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[3]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[4]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[5]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[6]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[7]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[8]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[9]              DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[10]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[11]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[12]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[13]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[14]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[15]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[16]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[17]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[18]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[19]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[20]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[21]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[22]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[23]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[24]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[25]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[26]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[27]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[28]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[29]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[30]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+b_reg_reg[31]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+mult_27                   multiplier_32_DW02_mult_0       8083.558183
+                                                                    BO, h
+result_reg[0]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[1]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[2]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[3]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[4]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[5]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[6]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[7]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[8]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[9]             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[10]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[11]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[12]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[13]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[14]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[15]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[16]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[17]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[18]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[19]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[20]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[21]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[22]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[23]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[24]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[25]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[26]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[27]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[28]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[29]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[30]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[31]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[32]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[33]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[34]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[35]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[36]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[37]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[38]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[39]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[40]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[41]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[42]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[43]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[44]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[45]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[46]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[47]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[48]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[49]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[50]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[51]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[52]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[53]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[54]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[55]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[56]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[57]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[58]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[59]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[60]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[61]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[62]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+result_reg[63]            DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+start_reg_reg             DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+valid_reg                 DFFARX1_RVT     saed32rvt_tt1p05v25c
+                                                          7.116032  n
+--------------------------------------------------------------------------------
+Total 145 cells                                           9038.123064
+1
