@@ -1,0 +1,18 @@
+Command: /home/cheeren/Desktop/module4_new/1_rtl_sim/multi/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-1_Full64; Runtime version Q-2020.03-1_Full64;  Jul 11 20:57 2026
+VCD+ Writer Q-2020.03-1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+PASS: a=3 b=5 result=15 cycles=6
+PASS: a=10 b=20 result=200 cycles=6
+PASS: a=12345 b=6789 result=83810205 cycles=6
+PASS: a=65535 b=2 result=131070 cycles=6
+PASS: a=4294967295 b=2 result=8589934590 cycles=6
+PASS: a=4294967295 b=4294967295 result=18446744065119617025 cycles=6
+RTL multicycle simulation finished.
+$finish called from file "../../tb_multiplier_mc.v", line 106.
+$finish at simulation time                63500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 63500 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Sat Jul 11 20:57:58 2026
